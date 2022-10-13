@@ -1,2 +1,4 @@
 
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ˆá¼“ûÿÿÿÿ8™¤§×¼0
+]	java:S125"<This block of commented-out lines of code should be removed.(™çîìþÿÿÿÿ8±ë€½0
+E
+java:S1068"(Remove this unused "name" private field.(Ë¥¼8²ë€½0

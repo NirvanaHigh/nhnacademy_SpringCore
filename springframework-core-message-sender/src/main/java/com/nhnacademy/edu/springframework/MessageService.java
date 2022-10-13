@@ -14,8 +14,9 @@ public class MessageService {
         this.messageSenders = messageSenders;
     }
 
-    public void doSendMessage(User user, String message){
+    public boolean doSendMessage(User user, String message){
         messageSenders.forEach(m -> m.sendMessage(user, message));
 
+        return true;
     }
 }
